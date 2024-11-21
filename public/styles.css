@@ -1,0 +1,22 @@
+/* Cambiar el color de fondo de la página */
+body {
+    background-color: #f0f0f0; /* Gris claro */
+    color: #333333; /* Texto oscuro */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Cambiar el color de los encabezados */
+  h1 {
+    color: #ff5733; /* Naranja */
+  }
+  
+  /* Cambiar el color de los enlaces */
+  a {
+    color: #1e90ff; /* Azul */
+  }
+  
+  #root {
+    padding: 20px;
+    text-align: center;
+  }
+  
