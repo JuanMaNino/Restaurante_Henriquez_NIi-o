@@ -1,3 +1,5 @@
+import Restaurante from "./../../../assets/img/Restaurante.png"
+
 export const Inicio = () => {
   return (
     <>
@@ -22,8 +24,8 @@ export const Inicio = () => {
               </p>
             </div>
             <div className="col-lg-6">
-              <img
-                src="src/assets/img/Restaurante.png"
+              <img 
+                src={Restaurante}
                 alt="Nuestra historia"
                 className="img-fluid rounded shadow-lg"
               />

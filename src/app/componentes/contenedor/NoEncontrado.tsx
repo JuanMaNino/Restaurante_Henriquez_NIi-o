@@ -1,3 +1,5 @@
+import Franquicia from "./../../../assets/img/Franquicia.png"
+
 export const NoEncontrado = () => {
   return (
     <section id="franquicias" className="py-5 bg-light">
@@ -34,7 +36,7 @@ export const NoEncontrado = () => {
           </div>
           <div className="col-lg-6 text-center">
             <img
-              src="src\assets\img\Franquicia.png"
+              src={Franquicia}
               alt="Franquicia"
               className="img-fluid rounded shadow-lg"
             />
