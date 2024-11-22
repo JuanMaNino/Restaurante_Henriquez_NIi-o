@@ -23,7 +23,7 @@ export const Inicio = () => {
             </div>
             <div className="col-lg-6">
               <img
-                src="src\assets\img\Restaurante.png"
+                src="src/assets/img/Restaurante.png"
                 alt="Nuestra historia"
                 className="img-fluid rounded shadow-lg"
               />
