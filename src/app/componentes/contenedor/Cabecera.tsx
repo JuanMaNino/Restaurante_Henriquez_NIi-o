@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import miLogo from "../../../assets/img/image.png";
+import miLogo from "../../../assets/img/logo.png";
 
 export const Cabecera = () =>{
   return (
@@ -32,7 +32,7 @@ data-bs-theme="dark"
       </li>
       <li className="nav-item">
         <NavLink className="nav-link" to="*">
-          Restaurantes
+          Franquicia
         </NavLink>
       </li>
 
@@ -69,7 +69,7 @@ data-bs-theme="dark"
       </li>
 
       <li className="nav-item">
-        <NavLink className="nav-link" to="/menuacer">
+        <NavLink className="nav-link" to="menuacer">
           Acerca de
         </NavLink>
       </li>

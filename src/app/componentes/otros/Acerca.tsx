@@ -1,50 +1,77 @@
 export const Acerca = () => {
   return (
-    <section id="acerca" className="py-5 bg-light">
+    <section
+      id="acerca"
+      className="py-5"
+      style={{
+        background: "linear-gradient(135deg, #8e44ad, #3498db)",
+        color: "#fff",
+      }}
+    >
       <div className="container">
-        <h1 className="display-4 text-center mb-4">Acerca de Nosotros</h1>
-        <p className="lead text-center mb-5">
-          En nuestro restaurante, celebramos la riqueza cultural y gastronómica
-          de Colombia. Queremos que cada plato sea una experiencia única que te
-          transporte a las diferentes regiones del país.
+        <h1
+          className="display-4 text-center mb-4"
+          style={{ fontFamily: "'Poppins', sans-serif" }}
+        >
+          Acerca de Nosotros
+        </h1>
+        <p
+          className="lead text-center mb-5"
+          style={{ fontFamily: "'Roboto', sans-serif" }}
+        >
+          En nuestro restaurante, honramos la riqueza cultural y gastronómica de
+          Colombia, transformando cada plato en una experiencia inolvidable que
+          te llevará a explorar los sabores y tradiciones de nuestras diversas
+          regiones.
         </p>
 
-        <div className="row text-center">
-          <div className="col-md-4 mb-4">
-            <div className="p-4 bg-white shadow rounded">
-              <h2 className="h5 mb-3">Nuestra Misión</h2>
-              <p>
+        <div className="row justify-content-center">
+          <div className="col-md-6 mb-4">
+            <div
+              className="p-4"
+              style={{
+                background: "#f1c40f",
+                color: "#333",
+                borderRadius: "10px",
+                boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+              }}
+            >
+              <h2
+                className="h5 mb-3"
+                style={{ fontFamily: "'Poppins', sans-serif" }}
+              >
+                Nuestra Misión
+              </h2>
+              <p style={{ fontFamily: "'Roboto', sans-serif" }}>
                 Promover, preservar y compartir las tradiciones gastronómicas de
                 Colombia, ofreciendo una experiencia culinaria inolvidable.
               </p>
             </div>
           </div>
-          <div className="col-md-4 mb-4">
-            <div className="p-4 bg-white shadow rounded">
-              <h2 className="h5 mb-3">Nuestra Historia</h2>
-              <p>
-                Con pasión por la cocina colombiana, combinamos recetas
-                tradicionales con un enfoque moderno para crear platos llenos de
-                identidad.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-4 mb-4">
-            <div className="p-4 bg-white shadow rounded">
-              <h2 className="h5 mb-3">Visítanos</h2>
-              <p>
-                Descubre los sabores de Colombia en un ambiente cálido y
-                acogedor. ¡Te esperamos con los mejores platos de nuestra
-                tierra!
-              </p>
-            </div>
-          </div>
-        </div>
 
-        <div className="text-center mt-4">
-          <a href="#menu" className="btn btn-primary btn-lg">
-            Explora Nuestro Menú
-          </a>
+          <div className="col-md-6 mb-4">
+            <div
+              className="p-4"
+              style={{
+                background: "#1abc9c",
+                color: "#333",
+                borderRadius: "10px",
+                boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+              }}
+            >
+              <h2
+                className="h5 mb-3"
+                style={{ fontFamily: "'Poppins', sans-serif" }}
+              >
+                Nuestra Visión
+              </h2>
+              <p style={{ fontFamily: "'Roboto', sans-serif" }}>
+                Ser reconocidos como el restaurante líder en cocina colombiana,
+                destacándonos por nuestra autenticidad, innovación y calidad en
+                cada plato.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
